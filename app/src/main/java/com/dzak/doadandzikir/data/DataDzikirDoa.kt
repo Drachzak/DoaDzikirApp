@@ -254,8 +254,8 @@ object DataDzikirDoa {
             val list = arrayListOf<DzikirDoa>()
             for (i in descDzikirPetang.indices) {
                 val dzikir = DzikirDoa(
+                    descDzikirPetang[i],
                     lafazDzikirPetang[i],
-                    lafazDzikirPagi[i],
                     terjemahDzikirPetang[i],
                 )
                 list.add(dzikir)
